@@ -40,20 +40,7 @@ for pkg in PKGS:
     subprocess.check_call([sys.executable, "-m", "-q", "pip", "install", pkg])
 
 # Install tesseract-ocr system package for OCR support
-subprocess.run(
-    [
-        "apt-get",
-        "install",
-        "-y",
-        "-q",
-        "tesseract-ocr",
-        "tesseract-ocr-ara",
-        "tesseract-ocr-urd",
-    ],
-    capture_output=True,
-)
 
-print("✅ Setup Complete")
 
 # --- CELL 3 [CODE] ---
 import base64
@@ -1332,8 +1319,7 @@ print(f"✅ App written to {APP_PATH} — {len(APP_CODE)} characters, 60+ featur
 APP_PATH = "invoice_auditor_pro.py"
 NGROK_AUTH_TOKEN = "3CP2RDQ7OnQTxjkmGxfeuM0WWjS_2h2cAr4Bo19hZSZEiLvcH"
 
-from pyngrok import ngrok, conf
-import subprocess, sys, time
+
 
 # Set ngrok auth token and clean old sessions
 conf.get_default().auth_token = NGROK_AUTH_TOKEN
