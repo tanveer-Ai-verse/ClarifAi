@@ -1,4 +1,4 @@
-# 📝 Invoice Auditor 📝
+# 📝 ClarifAi
 [![Python Version](https://img.shields.io/badge/Python-3.9+-blue.svg)](https://www.python.org/)
 [![License](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Code Quality](https://img.shields.io/badge/Code%20Quality-A-%23ff69b4.svg)](https://github.com)
