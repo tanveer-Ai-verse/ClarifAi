@@ -15,6 +15,9 @@
 ## 📄 Summary
 A Python project that utilizes base64, pyngrok, and subprocess to create an invoice auditor.
 
+## ▶️ Demo 
+https://clarifai-qzkvzvr5m77oayiw7h4iqe.streamlit.app/
+
 ## 🎉 Features
 * 📊 Audits invoices for discrepancies
 * 📈 Utilizes base64 for encoding and decoding
