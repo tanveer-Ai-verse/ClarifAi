@@ -1,6 +1,6 @@
 # --- CELL 1 [MARKDOWN] ---
 # 🧾 AI Invoice Auditor Pro — Ultra Edition
-> **Features:** OCR · Fraud Detection · Multi-Currency · Batch Processing · Real-Time Charts · KPI Dashboard · Vendor Analytics · Forecasting · Multi-Language · Export Suite · Admin Panel · AI Copilot · 100+ Upgrades
+#> **Features:** OCR · Fraud Detection · Multi-Currency · Batch Processing · Real-Time Charts · KPI Dashboard · Vendor Analytics · Forecasting · Multi-Language · Export Suite · Admin Panel · AI Copilot · 100+ Upgrades
 
 
 # --- CELL 2 [CODE] ---
