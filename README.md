@@ -39,11 +39,10 @@ To use the ClarifAi, simply execute the following command:
 ```bash
 python ClarifAi.py
 ```
-Replace `ClarifAi.py` with the actual script name.
 
 ## 🗂️ Project Structure
 ```markdown
-ClarifAi/
+app.py/
 │
 ├── README.md
 ├── requirements.txt
