@@ -58,28 +58,6 @@ PKGS = [
 ]
 
 print("\n\u23f3  Installing Python packages ...")
-for pkg in PKGS:
-    subprocess.check_call(
-        [sys.executable, "-m", "pip", "install", "-q", "--no-cache-dir", pkg],
-        stdout=subprocess.DEVNULL,
-        stderr=subprocess.DEVNULL,
-    )
-print("\u2705  Python packages installed.")
-
-# ══════════════════════════════════════════════════════════════════════
-#  STEP 2 — System packages
-#  poppler-utils provides pdftoppm which pdf2image depends on.
-# ══════════════════════════════════════════════════════════════════════
-print("\n\u23f3  Installing system packages ...")
-subprocess.run(
-    ["apt-get", "install", "-y", "-q",
-     "tesseract-ocr",
-     "tesseract-ocr-ara",
-     "tesseract-ocr-urd",
-     "poppler-utils"],
-    capture_output=True,
-)
-print("\u2705  System packages installed.")
 
 # ══════════════════════════════════════════════════════════════════════
 #  STEP 3 — Decode and write invoice_auditor_pro.py
