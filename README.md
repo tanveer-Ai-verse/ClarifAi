@@ -35,15 +35,15 @@ pip install pyngrok
 ```
 
 ## 📊 Usage
-To use the invoice auditor, simply execute the following command:
+To use the ClarifAi, simply execute the following command:
 ```bash
-python invoice_auditor.py
+python ClarifAi.py
 ```
-Replace `invoice_auditor.py` with the actual script name.
+Replace `ClarifAi.py` with the actual script name.
 
 ## 🗂️ Project Structure
 ```markdown
-invoice-auditor/
+ClarifAi/
 │
 ├── README.md
 ├── requirements.txt
