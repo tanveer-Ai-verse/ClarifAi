@@ -33,7 +33,7 @@ FIXES APPLIED vs. the original notebook
     The replacement is a single blocking os.system() call on port 7860.
 """
 
-import subprocess, sys, os, base64
+import sys, os, base64
 
 # ══════════════════════════════════════════════════════════════════════
 #  STEP 1 — Python packages
