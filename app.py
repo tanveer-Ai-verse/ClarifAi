@@ -893,7 +893,7 @@ with st.sidebar:
     st.markdown("""
     <div style=\"text-align:center; padding: 16px 0 8px;\">
       <div style=\"font-size:2.5rem;\">🧾</div>
-      <div style=\"font-size:1.1rem; font-weight:800; color:#E8E4DC; letter-spacing:0.5px;\">Invoice Auditor</div>
+      <div style=\"font-size:1.1rem; font-weight:800; color:#E8E4DC; letter-spacing:0.5px;\">ClarifAi</div>
       <div style=\"font-size:0.72rem; color:#5A6B7A; letter-spacing:2px; margin-top:2px;\">PRO EDITION</div>
     </div>
     """, unsafe_allow_html=True)
@@ -958,7 +958,7 @@ st.markdown("""
      margin-bottom:24px; display:flex; align-items:center; gap:16px;\">
   <div style=\"font-size:3rem;\">🧾</div>
   <div>
-    <div style=\"font-size:1.8rem; font-weight:800; color:#E8E4DC; letter-spacing:-0.5px;\">AI Invoice Auditor Pro</div>
+    <div style=\"font-size:1.8rem; font-weight:800; color:#E8E4DC; letter-spacing:-0.5px;\">ClarifAi</div>
     <div style=\"color:#5A6B7A; font-size:0.9rem; margin-top:4px;\">Fraud Detection · Multi-Currency · OCR · Batch Processing · Real-Time Analytics · AI Copilot</div>
   </div>
   <div style=\"margin-left:auto; text-align:right;\">
