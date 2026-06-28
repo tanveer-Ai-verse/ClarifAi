@@ -36,7 +36,7 @@ if GROQ_API_KEY:
     client = Groq(api_key=GROQ_API_KEY)
 
 st.set_page_config(
-    page_title="AI Invoice Auditor Pro",
+    page_title="ClarifAi",
     page_icon="🧾",
     layout="wide",
     initial_sidebar_state="expanded"
